@@ -68,7 +68,7 @@ function getMarksForPairs() {
     let marksPairs = []
     for (let i = 0; i < getThemes().length; i++) {
         const mark = Math.floor((Math.random() * 5) + 1);
-        marksPairs[i] = [getThemes()[i][0], mark]
+        marksPairs[i] = [getThemes()[i], mark]
     }
     console.log(marksPairs);
     const line1 = marksPairs[0];
